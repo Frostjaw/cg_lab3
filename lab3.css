@@ -1,0 +1,24 @@
+canvas { 
+    border: 1px solid black; 
+    display:block;
+}
+
+#drawButton{
+    margin-top: 5px;
+    /* display: inline-flex; */
+}
+
+#fractalTypeSelect{
+    margin-top: 5px;
+    /* display: inline-flex; */
+}
+
+#stepSizeInput{
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+#recursionDepthInput{
+    display: inline-flex;
+    margin-top: 5px;
+}

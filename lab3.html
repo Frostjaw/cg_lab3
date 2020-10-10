@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Lab3</title>
+	<link href="lab3.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="launchPage()">
+	<div id="main-div">
+        <canvas id="canvas" width="1000" height="600"></canvas>
+		<select id="fractalTypeSelect">
+			<option value="kochSnowflake">Снежинка Коха</option>
+			<option value="dragonCurve">Дракон Хартера-Хатвея</option>
+			<option value="sierpinskiTriangle">Треугольник Серпинского</option>
+			<option value="hilbertCurve">Кривая Гильберта</option>
+			<option value="tree1">Дерево 1</option>
+			<option value="tree2">Дерево 2</option>
+			<option value="tree3">Дерево 3</option>
+			<option value="tree4">Дерево 4</option>
+		</select>
+		<input id="stepSizeInput" type="text" placeholder="Введите длину шага">
+		<input id="recursionDepthInput" type="text" placeholder="Введите глубину рекурсии">
+		<button id="drawButton">Нарисовать</button>
+    </div>
+    <script src="lab3.js"></script>
+</body>
+
+</html>
